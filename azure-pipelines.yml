@@ -6,13 +6,13 @@ pr: none
 resources:
   repositories:
     - repository: react-Appspec
-      # type: git
-      # name: Vikrant1020/react-Appspec
-      # ref: main
+      type: git
+      name: Vikrant1020/react-Appspec
+      ref: main
       trigger:
         branches:
           include:
-            - main
+            - develop
 
 pool:
   vmImage: 'ubuntu-latest'
