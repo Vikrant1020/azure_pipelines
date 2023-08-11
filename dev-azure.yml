@@ -7,7 +7,7 @@ resources:
   repositories:
     - repository: tools
       type: git
-      name: react-Appspec
+      name: Vikrant1020/react-Appspec
       ref: main
       trigger:
         branches:
